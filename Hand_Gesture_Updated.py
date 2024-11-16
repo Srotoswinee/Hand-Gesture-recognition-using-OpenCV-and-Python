@@ -27,7 +27,7 @@ def perform_action(gesture):
         elif gesture == 5:
             webbrowser.open("https://www.linkedin.com")
     else:
-        print("Unknown gesture")
+        # print("Unknown gesture")
 
 # Initialize video capture
 cap = cv2.VideoCapture(0)
